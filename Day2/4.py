@@ -14,6 +14,7 @@
 # # Python
 # my_set.add(4)
 # mySet.add(4);
+# mySet.update([3,4]) we can add multiple  items
 # ✅ 4. Remove Items from a Set
 # 🔸 Python
 # my_set.remove(2)     # ❌ throws error if not found
@@ -32,6 +33,10 @@
 # intersection(set2)  Common items in both sets	Manual logic
 # difference(set2)	  Items in set1 not in set2	Manual logic
 # update(set2)	      Adds items from another set	a = new Set([...a, ...b])
+# Bonus: symmetric_difference(set2).
+# a = {1, 2, 3}
+# b = {3, 4, 5}
+# print(a.symmetric_difference(b))  # {1, 2, 4, 5}
 
 # Example:
 # a = {1, 2, 3}

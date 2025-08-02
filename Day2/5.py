@@ -10,7 +10,6 @@
 # ✅ 1. Access Items
 # print(person["name"])     # Output: Ashfaque
 # print(person.get("age"))  # Output: 25
-
 # ✅ 2. Change Items
 # person["age"] = 26
 # ✅ 3. Add Items
@@ -19,7 +18,6 @@
 # del person["age"]
 # # OR
 # person.pop("name")
-# delete person.age;
 # ✅ 5. Loop Through Dictionary
 # for key in person:
 #     print(key, person[key])
