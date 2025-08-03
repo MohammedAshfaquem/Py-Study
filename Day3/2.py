@@ -5,9 +5,9 @@
 # 💡 Example: Factorial
 # def factorial(n):
 #     if n == 0:
-#         return 1
+#         return 1    Base Case
 #     else:
-#         return n * factorial(n - 1)
+#         return n * factorial(n - 1) Recursive Case
 
 # print(factorial(5))  # Output: 120
 # factorial(5) → 5 × factorial(4)
@@ -42,8 +42,8 @@
 # names_sorted = sorted(names, key=lambda x: len(x))
 # print(names_sorted)  # ['Bob', 'Alice', 'Charlie']
 # 🔄 Recap
-# Feature	Recursion	Lambda Functions
+# Feature	Recursion	                        Lambda Functions
 # Use case	Solving problems by breaking down	Short, inline functions
-# Has name?	Yes (named function)	No (anonymous)
-# Syntax	def + function name	lambda args: expression
-# Example	factorial(n)	lambda x: x*x
+# Has name?	Yes (named function)	            No (anonymous)
+# Syntax	def + function name	                lambda args: expression
+# Example	factorial(n)	                    lambda x: x*x

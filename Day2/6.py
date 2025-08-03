@@ -72,7 +72,7 @@
 # # Output: My name is Alice and I am 30 years old.
 # You can also do calculations inside {}:
 # print(f"In 5 years, I will be {age + 5}.")
-# b) .format() method
+# b) .format() method.
 # Older way but still useful:
 # print("My name is {} and I am {} years old.".format(name, age))
 # # Output: My name is Alice and I am 30 years old.

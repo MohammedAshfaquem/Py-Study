@@ -2,16 +2,12 @@
 # In Python, variables can be categorized based on:
 
 # Scope (where they are accessible)
-
 # Lifetime (how long they exist)
-
 # Location (inside or outside functions)
 
 # 🔹 1️⃣ Global Variables
 # Declared outside any function.
-
 # Can be accessed anywhere in the file (even inside functions).
-
 # x = 10  # Global variable
 
 # def show():
@@ -29,9 +25,7 @@
 # print(count)  # Output: 1
 # 🔹 2️⃣ Local Variables
 # Declared inside a function.
-
 # Only accessible within that function.
-
 # def greet():
 #     name = "Alice"  # Local variable
 #     print("Hello", name)
@@ -40,7 +34,6 @@
 # # print(name)  ❌ Error: name is not defined
 # 🔹 3️⃣ Nonlocal Variables (used inside nested functions)
 # Not global, but also not local to inner function.
-
 # Declared in outer function, used in nested function.
 
 # def outer():

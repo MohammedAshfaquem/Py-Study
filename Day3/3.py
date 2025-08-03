@@ -7,11 +7,8 @@
 
 # 🧠 Why Use Modules?
 # Avoid repeating code
-
 # Organize large projects
-
 # Reuse your own code across files
-
 # Use powerful built-in or third-party functionality
 
 # 🔹 1. Importing a Module
@@ -51,13 +48,13 @@
 # Python includes many built-in modules. Examples:
 
 # Module	Purpose
-# math	Mathematical functions
+# math	    Mathematical functions
 # random	Random number generation
 # datetime	Dates and times
-# os	Interacting with the operating system
-# sys	System-specific parameters and tools
-# re	Regular expressions
-# json	Work with JSON data
+# os	    Interacting with the operating system
+# sys	    System-specific parameters and tools
+# re	    Regular expressions
+# json	    Work with JSON data
 
 # Example: Using random module
 # import random
