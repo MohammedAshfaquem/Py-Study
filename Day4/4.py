@@ -1,97 +1,112 @@
-# 🌀 Polymorphism in Python
-# ✅ What is Polymorphism?
-# Polymorphism means "many forms" — the same function or method behaves differently depending on the object calling it.
+# 🔹 Simple Definition of Polymorphism
+# Polymorphism means "many forms."
+# In programming, polymorphism allows different classes to be treated as if they were the same class, through a common interface, even though their behavior may differ.
 
-# It's about writing flexible and reusable code.
+# 🔑 Key Points of Polymorphism
+# Key Concept	Description
+# "Many Forms"	Same method name behaves differently for different classes
+# Common Interface	Classes follow a shared structure (often via inheritance or duck typing)
+# Dynamic Behavior	Actual method executed is determined at runtime
+# Method Overriding	Child class defines its own version of a method inherited from a parent
+# Code Reusability	Reduces duplication by allowing unified function/method calls
+# Duck Typing (Python)	If it "quacks like a duck," it’s treated as a duck — no need for strict types
 
-# 🔍 Real-life Analogy:
-# The word “draw” means different things:
+# 🧠 Two Main Types of Polymorphism in Python
+# 1. Compile-Time Polymorphism (not native in Python)
+# Also called method overloading.
 
-# 🎨 An artist draws with a pencil
+# Python doesn't support traditional overloading — instead, we use default arguments or *args.
 
-# 🧊 A freezer drawer pulls out
+# class Calculator:
+#     def add(self, a, b=0, c=0):
+#         return a + b + c
 
-# 🏹 A warrior draws a bow
+# calc = Calculator()
+# print(calc.add(2, 3))        # 5
+# print(calc.add(2, 3, 4))     # 9
+# 2. Run-Time Polymorphism (native in Python)
+# Achieved through method overriding and duck typing.
 
-# → Same name, different behavior
+# Useful with inheritance and common method names.
 
-# 🧱 Example 1: Built-in Polymorphis
-# print(len("Ashfaque"))      # 8 (string length)
-# print(len([1, 2, 3]))        # 3 (list length)
-# print(len({"a": 1, "b": 2})) # 2 (dict length)
-# ✅ The function len() behaves differently based on the type of object.
-
-# 🧱 Example 2: Polymorphism with Classe
-# class Dog:
+# class Animal:
 #     def speak(self):
-#         return "Woof!"
+#         print("Some generic animal sound")
 
-# class Cat:
+# class Dog(Animal):
 #     def speak(self):
-#         return "Meow!"
+#         print("Bark")
 
-# animals = [Dog(), Cat()]
+# class Cat(Animal):
+#     def speak(self):
+#         print("Meow")
+
+# # Polymorphic behavior
+# animals = [Dog(), Cat(), Animal()]
 
 # for animal in animals:
-#     print(animal.speak())
-# 🧠 Even though both objects use speak(), they respond in their own way.
+#     animal.speak()  # Calls the correct version of speak()
+# 🔎 Output:
+# Bark
+# Meow
+# Some generic animal sound
+# Even though we’re calling the same method speak(), each class behaves differently — this is polymorphism.
 
-# 🧱 Example 3: Polymorphism with Inheritanc
-# class Vehicle:
-#     def move(self):
-#         print("Vehicle is moving")
+# 🦆 Duck Typing in Python
+# “If it looks like a duck and quacks like a duck, it must be a duck.”
 
-# class Car(Vehicle):
-#     def move(self):
-#         print("Car is driving")
+# Python is dynamically typed, so you don’t need inheritance to achieve polymorphism.
 
-# class Boat(Vehicle):
-#     def move(self):
-#         print("Boat is sailing")
+# class Duck:
+#     def walk(self):
+#         print("Duck walks")
 
-# # Polymorphism in action
-# for v in [Car(), Boat()]:
-#     v.move()
-# 📌 The move() method behaves differently depending on the subclass, even though it’s the same method name.
+# class Human:
+#     def walk(self):
+#         print("Human walks")
 
-# ✅ Method Overriding → A Type of Polymorphism
-# When a child class redefines a method from the parent, it’s called method overriding.
-# class Person:
-#     def greet(self):
-#         print("Hello!")
+# def let_it_walk(thing):
+#     thing.walk()  # Doesn’t care what type 'thing' is
 
-# class Student(Person):
-#     def greet(self):
-#         print("Hi, I'm a student!")
-
-# Student().greet()  # Overrides parent
-# ✅ Duck Typing (Dynamic Polymorphism)
-# "If it walks like a duck and quacks like a duck, treat it like a duck."
-# class File:
-#     def open(self):
-#         print("File opened")
-
-# class Camera:
-#     def open(self):
-#         print("Camera opened")
-
-# def start(obj):
-#     obj.open()
-
-# start(File())
-# start(Camera())
-# ✅ We don’t care what the object is — as long as it has an .open() method, it works.
+# let_it_walk(Duck())
+# let_it_walk(Human())
+# 🔎 Output:
+# Duck walks
+# Human walks
+# This is polymorphism without inheritance — Python cares about behavior, not type.
 
 # ✅ Summary Table
-# Type	Example
-# Built-in Polymorphism	len() works with string, list, etc.
-# Method Overriding	Child class overrides parent method
-# Duck Typing	Function accepts any object with method
-# Class-based	Same method name, different class output.
+# Term	Meaning
+# Polymorphism	Ability of different objects to respond to the same method call in different ways
+# Method Overloading	Same method name with different arguments (limited in Python)
+# Method Overriding	Subclass changes the method defined in the parent class
+# Duck Typing	If an object has the right method, Python doesn't care what type it is
+
+# 💡 Real-World Analogy
+# Think of polymorphism like the word “drive”:
+
+# A car drives on the road.
+
+# A boat drives in water.
+
+# A golf ball drives down the fairway.
+
+# Different "things" respond to the same command (“drive”), but behave differently.
 
 
-# Why is Polymorphism Important?
-# Extensibility: You can add new classes without changing existing code.
-# Maintainability: Write generic functions that work on any compatible object.
-# Code clarity: The same method name means the same action, customized per class.
-# Flexibility: Allows frameworks and libraries to work with user-defined classes.
+
+# # ✅ Summary Table
+# # Type	Example
+# # Built-in Polymorphism	len() works with string, list, etc.
+# # Method Overriding	Child class overrides parent method
+# # Duck Typing	Function accepts any object with method
+# # Class-based	Same method name, different class output.
+
+
+# # Why is Polymorphism Important?
+# # Extensibility: You can add new classes without changing existing code.
+# # Maintainability: Write generic functions that work on any compatible object.
+# # Code clarity: The same method name means the same action, customized per class.
+# # Flexibility: Allows frameworks and libraries to work with user-defined classes.
+
+

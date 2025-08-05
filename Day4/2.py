@@ -1,9 +1,11 @@
 # 🧱 What Are Classes and Objects in Python?
 # 🔹 1. What is a Class?
 # A class is a blueprint or template for creating objects.
+
 # It defines:
-# What data an object should hold (called attributes)
-# What actions an object can perform (called methods)
+# What data an object should hold (called attributes).
+# What Functions an object can perform (called methods).
+
 # Think of a class as a cookie cutter, and objects as the cookies 🍪 made from it.
 
 # ✅ Example Class Definition
@@ -48,14 +50,14 @@
 # c1.drive()  # Driving Toyota Corolla
 # c2.drive()  # Driving Tesla Model 3
 # 🎯 Why Use Classes and Objects?
-# Feature	Benefit
+# Feature	    Benefit
 # Reusability	One class can create many objects
 # Organization	Code is cleaner and grouped logically
-# Real-world mapping	Models real-world entities and behavior
+# Real-world    mapping	Models real-world entities and behavior
 
 # 🔄 Class vs Object Summary
 # Concept	Description	Example
-# Class	Template or blueprint	Person class
+# Class	    Template or blueprint	Person class
 # Object	Instance of a class	p1 = Person(...)
 # Method	Function inside a class	greet(self)
 # Attribute	Variable tied to an object	self.name
@@ -67,15 +69,6 @@
 # 🔸 Real-world class project (e.g. ATM, School)?
 
 
-
-# You said:
-# 🔸 Class variables vs Instance variables?
-# 🔸 Method types (instance, class, static)?
-# 🔸 Real-world class project (e.g. ATM, School)?
-
-# ChatGPT said:
-# Perfect! 🙌 Let's go through each of these key OOP topics in Python with clear examples.
-
 # 🔸 1. Class Variables vs Instance Variables
 # ✅ Instance Variables
 # Defined inside __init__
@@ -84,15 +77,14 @@
 # class Car:
 #     def __init__(self, brand):
 #         self.brand = brand  # instance variable
-
 # c1 = Car("Toyota")
 # c2 = Car("Tesla")
-
 # print(c1.brand)  # Toyota
 # print(c2.brand)  # Tesla
+
+
 # ✅ Class Variables
 # Defined outside any method, usually at the top of the class
-
 # Shared by all objects
 # class Car:
 #     wheels = 4  # class variable
@@ -115,8 +107,8 @@
 # 🔸 2. Method Types in Python Classes
 # ✅ 1. Instance Method
 # Takes self as first argument
-
 # Can access both instance & class variables
+
 # class Person:
 #     def __init__(self, name):
 #         self.name = name
@@ -125,31 +117,29 @@
 #         print(f"Hi, I'm {self.name}")
 # ✅ 2. Class Method
 # Takes cls as first argument
-
 # Uses @classmethod decorator
-
 # Can access class variables
+
 # class Dog:
 #     count = 0
-
 #     def __init__(self):
 #         Dog.count += 1
 
 #     @classmethod
 #     def total_dogs(cls):
 #         print(f"Total dogs: {cls.count}")
+
 # ✅ 3. Static Method
 # Doesn’t take self or cls
 # Uses @staticmethod decorator
-
 # Just a utility function inside the class
+
 # class Math:
 #     @staticmethod
 #     def add(a, b):
 #         return a + b
-
 # print(Math.add(3, 4))  # 7
-# Method Type	Uses	Can Access
-# Instance Method	self	Instance & class data
-# Class Method	cls	Only class data
-# Static Method	None	No instance/class data
+# Method Type	     Uses	Can Access
+# Instance Method	 self	Instance & class data
+# Class Method	     cls	Only class data
+# Static Method	     None	No instance/class data

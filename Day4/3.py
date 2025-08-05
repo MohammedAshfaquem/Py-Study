@@ -1,25 +1,23 @@
 # 🧬 Inheritance in Python — Explained in Detail
 # ✅ What is Inheritance?
-# Inheritance allows one class (child/subclass) to reuse the code (methods & attributes) of another class (parent/superclass).
+# Inheritance allows one class (child/subclass) to reuse the code (methods & attributes) of
+# another class (parent/superclass).
 
 # 🧠 Think of it as:
-
 # "Child inherits everything from parent — and can add or override things."
 
 # 🔧 Why Use It?
 # Code Reusability ✅
-
 # Logical Hierarchies ✅
-
 # Cleaner Code ✅
 
-# 🔨 Basic Synta
+# 🔨 Basic Syntax
 # class Parent:
 #     # parent code
-
 # class Child(Parent):
 #     # child code (inherits from Parent)
-# ✅ Simple Exampl
+
+# ✅ Simple Example
 # class Animal:
 #     def speak(self):
 #         print("Animal speaks")
@@ -33,10 +31,10 @@
 # d.bark()   # own method
 # 🔁 Types of Inheritance in Python
 # Type	Description
-# Single	One child inherits one parent
+# Single	    One child inherits one parent
 # Multilevel	Child → Parent → Grandparent
 # Hierarchical	Multiple children inherit one parent
-# Multiple (careful)	One child inherits multiple parents
+# Multiple      (careful)One child inherits multiple parents
 
 # 🔹 1. Single Inheritanc
 # class A:
@@ -62,11 +60,11 @@
 # class C(B):
 #     def showC(self):
 #         print("Class C")
-
 # c = C()
 # c.showA()
 # c.showB()
 # c.showC()
+
 # 🔹 3. Hierarchical Inheritanc
 # class Parent:
 #     def greet(self):
@@ -80,7 +78,7 @@
 
 # Child1().greet()
 # Child2().greet()
-# 🔹 4. Multiple Inheritanc
+# 🔹 4. Multiple Inheritance
 # class Father:
 #     def skill(self):
 #         print("Cooking")
@@ -127,8 +125,8 @@
 # Hello from A
 # Hello from B
 # ✅ Summary
-# Feature	Description
+# Feature	    Description
 # Inheritance	One class gets features from another
-# super()	Calls parent methods
+# super()	    Calls parent methods
 # Overriding	Child class redefines parent method
 # Code Reuse	Avoids writing same logic in every class

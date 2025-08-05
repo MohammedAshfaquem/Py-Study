@@ -20,3 +20,38 @@
 # user1.deposit(20000);
 # user1.withDraw(4000);
 # print(user1.bank_name)
+
+
+# Duck Typing
+# class Duck:
+#     def Walk(self):
+#         print("Duck Is Quacking");
+        
+# class Human:
+#     def Walk(self):
+#         print("Human is walking");
+        
+# def call(think):
+#     think.Walk();
+    
+# call(Duck());
+# call(Human());
+
+
+# Public
+# Private
+# Protected
+# This Are Access Modifiers
+
+# class A:
+#     def __init__(self):
+#         self.public_var = 'public'
+#         self._protected = "Protected"
+#         self.__private = "Private"
+        
+        
+# o = A()
+# print(o.public_var)
+# print(o._protected)
+# print(o.__private)    not supported
+# print(o._A__private)  supoorted
