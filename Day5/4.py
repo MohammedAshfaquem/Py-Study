@@ -8,10 +8,6 @@
 # for pair in zip(names, scores):
 #     print(pair)
 # 🟢 Output:
-
-# bash
-# Copy
-# Edit
 # ('Alice', 85)
 # ('Bob', 90)
 # ('Charlie', 95)
@@ -28,16 +24,12 @@
 # Stops at the shortest list
 
 # Very useful for building dictionaries
-
 # Works well inside loops, comprehensions
 
 # 🔹 What Are Magic Methods?
 # Magic methods are special methods with names that start and end with double underscores, like __init__, __str__, __add__.
-
 # They allow custom objects to:
-
 # Support built-in operators (+, ==, len())
-
 # Define object creation and representation
 
 # Hook into Python's syntax features
@@ -60,7 +52,6 @@
 
 #     def __del__(self):
 #         print(f"{self.name} is being deleted")
-
 # p = Person("Alex")
 # del p  # triggers __del__
 # 2️⃣ String Representations
@@ -196,8 +187,8 @@
 #     return a + b.
 
 # 🔹 What is Monkey Patching?
-# Monkey Patching refers to the dynamic modification or extension of a class or module at runtime. This means you can alter or add functionality to an already existing class or method without modifying the original source code.
-
+# Monkey Patching refers to the dynamic modification or extension of a class or module at runtime.
+# This means you can  add functionality to an already existing class or method without modifying the original source code.
 # The term "monkey patching" is used to describe this technique because you’re kind of "tweaking" or "hacking" parts of the code while it is running.
 
 # In Python, this means you can replace or modify methods and attributes of classes, functions, or even modules at runtime. It can be used to add behavior, fix bugs, or change implementation without altering the original source code.
@@ -205,11 +196,8 @@
 # 🔹 Why Use Monkey Patching?
 # Use Cases:
 # Hotfixes: You can fix a bug in an external module without changing the source.
-
 # Enhancing functionality: Add extra functionality to an existing class or function.
-
 # Testing: Modify objects or methods for mocking or patching during tests.
-
 # Legacy code: When you cannot modify the source, you can patch behavior for compatibility.
 
 # 🔹 How Does Monkey Patching Work in Python?
@@ -217,9 +205,7 @@
 
 # Key Points:
 # We can change methods and attributes of existing classes.
-
 # Monkey patching doesn’t modify the original source code, just the running instance.
-
 # It works on mutable objects like classes and functions.
 
 # ✅ Basic Example: Monkey Patching a Method
@@ -267,20 +253,14 @@
 
 # 🔹 Advantages of Monkey Patching
 # Quick Fixes: You can quickly fix bugs or issues in a third-party library without needing to change the original source code.
-
 # Custom Behavior: Add or modify behavior dynamically at runtime to meet new requirements.
-
 # Testing: When mocking or overriding parts of an application for testing, monkey patching is very useful.
-
 # Compatibility: Modify existing code to be compatible with newer versions or different frameworks.
 
 # 🔹 Disadvantages of Monkey Patching
 # Hard to Maintain: It can make your code difficult to maintain because it relies on dynamic changes that aren't clearly visible in the original code.
-
 # Confusing for Others: If someone else is reading your code, they may not immediately understand the patch or why it was applied.
-
 # Potential Conflicts: If you patch a method or class that is later updated (e.g., in a new version of a library), your patch may cause conflicts or break the program.
-
 # Dangerous in Production: In production, it can be risky since it changes code behavior unexpectedly.
 
 # 🔹 Real-Life Analogy:

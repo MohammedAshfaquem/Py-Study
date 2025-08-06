@@ -1,6 +1,5 @@
 # 🛑 What is Exception Handling?
 # An exception is an error that occurs during the execution of a program and disrupts the normal flow of the code.
-
 # Python provides tools to catch and handle errors, so your program doesn’t crash unexpectedly.
 
 # ⚠️ Common Exceptions:
@@ -42,9 +41,9 @@
 # finally:
 #     print("This runs no matter what.")
 # Block	When it runs
-# try	Code that may raise an error
+# try	    Code that may raise an error
 # except	Runs if an exception happens
-# else	Runs if no error occurred
+# else	    Runs if no error occurred
 # finally	Always runs (cleanup code like closing files)
 
 # 📌 Example 3: Catching all exceptions (not always recommended)
@@ -56,9 +55,6 @@
 
 # ✅ Summary
 # Use try/except to prevent program crashes
-
 # Handle specific exceptions when possible
-
 # Use else for code that runs only if no error
-
 # Use finally for cleanup tasks

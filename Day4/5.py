@@ -1,13 +1,9 @@
 # 🔷 Abstraction – Simple Definition
 # Abstraction means hiding unnecessary details and showing only the relevant features to the user.
 
-# ✅ Simple Analogy (English):
-# When you drive a car, you just use the steering wheel, brakes, and accelerator.
-# You don’t need to know how the engine works internally — that's abstraction.
-
 # 🧠 Key Points of Abstraction
 # Concept	Description
-# Hides complexity	Internal code/logic is hidden from the user
+# Hides     complexity	Internal code/logic is hidden from the user
 # Shows only essentials	Only relevant methods/data are shown
 # Improves readability	Cleaner and more user-friendly code
 # Used via abstract classes	In Python, using abc module
@@ -15,15 +11,12 @@
 
 # 🐍 Python Implementation of Abstraction
 # Python supports abstraction through the abc (Abstract Base Class) module.
-
 # 1. Abstract Class
 # Cannot be instantiated (you can't create an object of it).
-
 # May contain abstract methods (methods without implementation).
 
 # 2. Abstract Method
 # A method with no body (implementation).
-
 # Must be implemented in the subclass.
 
 # ✅ Example:

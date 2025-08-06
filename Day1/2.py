@@ -78,5 +78,5 @@
 # Feature	Description
 # Indentation	Required to define blocks of code
 # Default spaces	4 spaces per level (don’t mix tabs!)
-# Comments	Use # for single-line
+# Comments	        Use # for single-line
 # Multi-line docs	Use """ ... """ or multiple # lines

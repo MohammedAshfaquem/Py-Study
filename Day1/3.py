@@ -1,16 +1,12 @@
 # 🔹 What is a Variable in Python?
 # A variable is a named reference to a value stored in memory.
-
 # Think of it like:
-
 # 🪣 A label (x) stuck on a container that holds a value (10)
 
 # Example:
 # x = 10
 # x is the variable (label)
-
 # 10 is the value
-
 # Python stores 10 in memory and x points to it
 
 # ✅ Key Features of Python Variables
@@ -23,7 +19,6 @@
 
 # 2. No Need for Declaration
 # No need to write int x; or String x; like in Java or C++.
-
 # Just assign:
 
 # name = "Ashfaque"
@@ -45,26 +40,18 @@
 # Steps:
 
 # Python creates an integer object 10 in memory.
-
 # It binds the name x to that object.
-
 # The type of the object is int.
 
 # 🔠 Variable Naming Rules
 # ✅ Valid:
-
 # Must start with a letter (a-z or A-Z) or underscore _
-
 # Can contain letters, digits (0-9), and underscores
-
 # Case-sensitive (age ≠ Age)
 
 # ❌ Invalid:
-
 # Cannot start with a number (e.g., 1num)
-
 # Cannot use special characters like @, $, %
-
 # Cannot use Python keywords like if, for, class
 
 # 🧪 Examples:

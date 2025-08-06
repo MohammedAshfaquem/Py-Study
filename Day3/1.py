@@ -1,14 +1,13 @@
 # 🧠 Python Functions
 # ✅ What Is a Function?
 # A function in Python is a reusable block of code that performs a specific task.
-
 # Instead of repeating code, you define it once and call it whenever needed.
 
 # 📌 How to Define a Function
 # def function_name():
 #     # code block
 #     print("Hello!")
-# ▶️ How to Call a Fu        nction
+# ▶️ How to Call a Function
 # function_name()  # Output: Hello!
 # 🧮 Function with Parameters
 # You can pass values (called arguments) into functions:
@@ -19,7 +18,7 @@
 # greet("Alice")  # Output: Hello, Alice!
 # 🔁 Function with Return Value
 # Functions can return data using return:
-
+    
 # def add(a, b):
 #     return a + b
 

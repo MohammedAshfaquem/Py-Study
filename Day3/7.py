@@ -1,7 +1,6 @@
 # 🎨 Python Decorators — Explained Simply
 # ✅ What Is a Decorator?
 # A decorator is a function that:
-
 # Takes another function as input
 # Adds extra functionality to it
 # And returns a new function (or the same, modified one)
@@ -15,8 +14,9 @@
 #         func()
 #         print("After the function runs")
 #     return wrapper
-# Use it like this:
 
+
+# Use it like this:
 # @decorator
 # def say_hello():
 #     print("Hello!")
@@ -71,10 +71,10 @@
 
 # print(multiply(2, 5))
 # ✨ Built-in Decorators Examples
-# Decorator	Purpose
+# Decorator   	Purpose
 # @staticmethod	Defines a static method in a class
 # @classmethod	Defines a method with access to the class (cls)
-# @property	Treats a method like a read-only attribute
+# @property	    Treats a method like a read-only attribute
 
 # 🔁 Summary
 # Decorators are used to modify or enhance functions without changing them.

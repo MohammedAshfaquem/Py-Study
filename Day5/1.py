@@ -26,9 +26,7 @@
 
 # 🧱 Creating a Custom Iterator
 # To create a custom iterator, define a class with:
-
 # __iter__(self) → returns the iterator object itself
-
 # __next__(self) → returns the next value or raises StopIteration
 
 # class Count:
@@ -64,11 +62,11 @@
 # That’s how an iterator works — one item at a time, and it remembers position.
 
 # 🔄 Iterators vs Iterables
-# Feature	Iterable	Iterator
-# What it is	Collection of items	Object that traverses items
-# Has __iter__()	✅ Yes	✅ Yes
-# Has __next__()	❌ No	✅ Yes
-# Example	list, string, tuple	object returned by iter()
+# Feature	      Iterable	             Iterator
+# What it is	  Collection of items	 Object that traverses items
+# Has __iter__()  ✅ Yes	               ✅ Yes
+# Has __next__()  ❌ No	               ✅ Yes
+# Example	      list, string, tuple	 object returned by iter()
 
 # ⚡ Iterator vs Generator
 # Feature	Iterator Class	Generator Function

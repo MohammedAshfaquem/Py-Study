@@ -18,7 +18,6 @@
 
 # ⚠️ Recursive Function Must Have:
 # Base case → when to stop
-
 # Recursive call → function calls itself.
 
 # ⚡ 2️⃣ Lambda Functions (Anonymous functions)

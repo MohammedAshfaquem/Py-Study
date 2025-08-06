@@ -1,11 +1,11 @@
 # 🔹 What is Encapsulation?
-# Encapsulation means binding data and methods into a single unit (a class), and restricting direct access to some of the object’s components.
+# Encapsulation means binding data and methods into a single unit (a class), and restricting direct access
+# to some of the object’s components.
 
 # In simple terms, it’s like putting important things inside a box and only allowing access through specific rules.
 
 # 🎯 Main Goal of Encapsulation
 # To protect the internal state of an object from unintended or harmful modification.
-
 # To control how the data is accessed or modified using methods (getters and setters).
 
 # ✅ Key Points of Encapsulation
@@ -28,7 +28,8 @@
 # That's encapsulation — it hides the internal data and exposes only what's needed.
 
 # 🐍 Encapsulation in Python
-# Python does not enforce access restrictions like other languages (Java, C++), but it follows naming conventions:
+# Python does not enforce access restrictions like other languages (Java, C++),
+# but it follows naming conventions:
 
 # Access Type	Syntax Example	Meaning
 # Public	self.name	Accessible from anywhere
@@ -73,10 +74,10 @@
 # ✅ Supports abstraction and security
 
 # 🧩 Encapsulation vs Abstraction
-# Feature	Encapsulation	Abstraction
-# Focus	How to restrict access	How to hide complexity
-# Tools used	Access modifiers, getters/setters	Abstract classes, interfaces
-# Goal	Protect data	Simplify interface
+# Feature	    Encapsulation	                       Abstraction
+# Focus      	How to restrict access	               How to hide complexity
+# Tools used	Access modifiers, getters/setters	   Abstract classes, interfaces
+# Goal      	Protect data	                       Simplify interface
 
 # 📝 Mini Quiz (1 Question)
 # Q: Which of the following is TRUE about encapsulation?

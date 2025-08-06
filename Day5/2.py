@@ -1,5 +1,6 @@
 # 🔹 What is a Generator?
-# A generator is a special type of function that returns an iterator and allows you to iterate over data without storing the entire dataset in memory.
+# A generator is a special type of function that returns an iterator
+# and allows you to iterate over data without storing the entire dataset in memory.
 # It’s like a smart version of a function that pauses and resumes.
 
 # ✅ Key Features of Generators
@@ -9,16 +10,6 @@
 # Lazy evaluation	 Produces one value at a time on demand
 # Automatically      becomes an iterator	No need to define __iter__ or __next__
 
-# 🧠 Real-Life Analogy
-# Think of a water cooler:
-
-# You press the tap (call next()), and it gives one cup of water (one value)
-
-# It waits until you press again
-
-# Water is not pre-poured, it comes when you ask
-
-# That’s exactly how a generator works.
 
 # 🔄 Generator vs Normal Function
 # Feature	Normal Function	Generator Function
@@ -59,11 +50,8 @@
 
 # 🧠 How it works internally
 # Every generator:
-
 # Keeps track of its state
-
 # Resumes where it left off after each yield
-
 # Raises StopIteration when done
 
 # 🚀 Generator Expressions (One-liners)
@@ -72,10 +60,7 @@
 # gen = (x**2 for x in range(5))
 # for val in gen:
 #     print(val)
-# ✅ Output:
-
-# Copy
-# Edit
+# ✅ Output:x
 # 0
 # 1
 # 4
@@ -98,22 +83,11 @@
 
 # 🔐 Common Use Cases
 # Reading large files line by line
-
 # Infinite sequences (e.g., Fibonacci)
-
 # Streams of data (APIs, sensors)
-
 # Replacing complex iterator classes
 
-# 💡 Real-World Example: Read File with Generator
-# def read_file_line_by_line(filename):
-#     with open(filename) as f:
-#         for line in f:
-#             yield line.strip()
 
-# for line in read_file_line_by_line("bigfile.txt"):
-#     print(line)
-# ✅ Reads without loading the whole file into memory!
 
 # 📝 Mini Quiz – Generators
 # Q1. What keyword is used in a generator function?

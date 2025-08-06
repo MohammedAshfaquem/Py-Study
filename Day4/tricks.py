@@ -1,4 +1,5 @@
-# Great question! You're talking about method resolution in multiple inheritance — a key part of Python's OOP behavior.
+# Great question! You're talking about method resolution in multiple inheritance 
+# — a key part of Python's OOP behavior.
 
 # Let’s first break this down and then solve your specific question.
 

@@ -1,7 +1,6 @@
 # 📂 1. File Handling in Python – Reading & Writing Files
 # 🔹 What is File Handling?
 # File handling is how Python reads from and writes to files — like .txt, .csv, etc.
-
 # This lets your program store and retrieve data permanently (unlike variables which are lost when the program ends).
 
 # 📁 File Modes in Python
@@ -35,7 +34,6 @@
 # 🧹 2. filter() Function – Select items based on condition
 # 🔹 What is filter()?
 # The filter() function selects elements from a sequence that match a condition.
-
 # It returns an iterator of elements for which the function returns True.
 
 # 🧪 Syntax:

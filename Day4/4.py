@@ -1,10 +1,11 @@
 # 🔹 Simple Definition of Polymorphism
 # Polymorphism means "many forms."
-# In programming, polymorphism allows different classes to be treated as if they were the same class, through a common interface, even though their behavior may differ.
+# In programming, polymorphism allows different classes to be treated as
+# if they were the same class, through a common interface, even though their behavior may differ.
 
 # 🔑 Key Points of Polymorphism
-# Key Concept	Description
-# "Many Forms"	Same method name behaves differently for different classes
+# Key Concept	    Description
+# "Many Forms"	    Same method name behaves differently for different classes
 # Common Interface	Classes follow a shared structure (often via inheritance or duck typing)
 # Dynamic Behavior	Actual method executed is determined at runtime
 # Method Overriding	Child class defines its own version of a method inherited from a parent
@@ -14,7 +15,6 @@
 # 🧠 Two Main Types of Polymorphism in Python
 # 1. Compile-Time Polymorphism (not native in Python)
 # Also called method overloading.
-
 # Python doesn't support traditional overloading — instead, we use default arguments or *args.
 
 # class Calculator:
@@ -26,7 +26,6 @@
 # print(calc.add(2, 3, 4))     # 9
 # 2. Run-Time Polymorphism (native in Python)
 # Achieved through method overriding and duck typing.
-
 # Useful with inheritance and common method names.
 
 # class Animal:
@@ -54,7 +53,6 @@
 
 # 🦆 Duck Typing in Python
 # “If it looks like a duck and quacks like a duck, it must be a duck.”
-
 # Python is dynamically typed, so you don’t need inheritance to achieve polymorphism.
 
 # class Duck:
