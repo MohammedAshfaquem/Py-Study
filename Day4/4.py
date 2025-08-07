@@ -74,21 +74,18 @@
 # This is polymorphism without inheritance — Python cares about behavior, not type.
 
 # ✅ Summary Table
-# Term	Meaning
-# Polymorphism	Ability of different objects to respond to the same method call in different ways
+# Term	                Meaning
+# Polymorphism	        Ability of different objects to respond to the same method call in different ways
 # Method Overloading	Same method name with different arguments (limited in Python)
-# Method Overriding	Subclass changes the method defined in the parent class
-# Duck Typing	If an object has the right method, Python doesn't care what type it is
+# Method Overriding	    Subclass changes the method defined in the parent class
+# Duck Typing	        If an object has the right method, Python doesn't care what type it is
 
 # 💡 Real-World Analogy
 # Think of polymorphism like the word “drive”:
-
 # A car drives on the road.
-
 # A boat drives in water.
 
 # A golf ball drives down the fairway.
-
 # Different "things" respond to the same command (“drive”), but behave differently.
 
 

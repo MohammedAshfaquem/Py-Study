@@ -71,7 +71,7 @@
 # ⚡ Iterator vs Generator
 # Feature	Iterator Class	Generator Function
 # Syntax	Class with __next__()	Uses yield
-# Memory Efficient	❌ Not always	✅ Yes
+# Memory    Efficient	❌ Not always	✅ Yes
 # Simpler to write	❌ No (requires boilerplate)	✅ Yes
 
 # 🔸 Use generators when: you want to write lightweight iterators easily

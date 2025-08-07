@@ -31,7 +31,7 @@
 # Python does not enforce access restrictions like other languages (Java, C++),
 # but it follows naming conventions:
 
-# Access Type	Syntax Example	Meaning
+# Access    Type	    Syntax Example	Meaning
 # Public	self.name	Accessible from anywhere
 # Protected	self._name	Suggests "use with caution"
 # Private	self.__name	Not directly accessible (name mangling)

@@ -1,5 +1,6 @@
 # 🔹 What is zip()?
-# The zip() function combines multiple iterables (lists, tuples, etc.) into a single iterator of tuples, element-wise.
+# The zip() function combines multiple iterables (lists, tuples, etc.) into a single iterator of tuples,
+# element-wise.
 
 # ✅ Basic Example:
 # names = ['Alice', 'Bob', 'Charlie']
@@ -190,7 +191,6 @@
 # Monkey Patching refers to the dynamic modification or extension of a class or module at runtime.
 # This means you can  add functionality to an already existing class or method without modifying the original source code.
 # The term "monkey patching" is used to describe this technique because you’re kind of "tweaking" or "hacking" parts of the code while it is running.
-
 # In Python, this means you can replace or modify methods and attributes of classes, functions, or even modules at runtime. It can be used to add behavior, fix bugs, or change implementation without altering the original source code.
 
 # 🔹 Why Use Monkey Patching?
@@ -272,14 +272,11 @@
 # 🔹 When Should You Use Monkey Patching?
 # Best Scenarios:
 # For quick fixes in third-party libraries where the source code is unavailable or inaccessible.
-
 # For testing — to mock or patch parts of your code during unit testing.
-
 # When working with legacy systems that can’t be directly modified, but you need to add or tweak behavior.
 
 # Avoid Using It:
 # In production environments unless absolutely necessary. It can introduce unexpected behaviors and make code harder to maintain.
-
 # When creating large or complex systems, as it can lead to confusion about what code is actually executing.
 
 # 🧪 Optional Mini Quiz (Test Your Understanding)

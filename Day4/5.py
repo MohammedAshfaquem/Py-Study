@@ -61,12 +61,12 @@
 # TV Remote	You press volume buttons, but don’t see how signals work inside
 
 # 🔁 Summary Table
-# Feature	Description
-# Abstraction	Hiding internal logic and showing only necessary parts
+# Feature	        Description
+# Abstraction	    Hiding internal logic and showing only necessary parts
 # Abstract class	A base class with at least one abstract method
 # Abstract method	Method with no implementation (must be overridden)
-# abc module	Used in Python to implement abstraction
-# Real benefit	Cleaner, structured, and more maintainable code.
+# abc module	    Used in Python to implement abstraction
+# Real benefit	    Cleaner, structured, and more maintainable code.
 
 from abc import ABC,abstractmethod
 # class A(ABC):

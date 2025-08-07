@@ -53,5 +53,5 @@
 # o = A()
 # print(o.public_var)
 # print(o._protected)
-# print(o.__private)    not supported
-# print(o._A__private)  supoorted
+# print(o.__private)    not Supported
+# print(o._A__private)  Supported

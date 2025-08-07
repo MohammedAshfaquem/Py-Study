@@ -38,7 +38,6 @@
 # 🧠 Behind the Scenes:
 # x = 10
 # Steps:
-
 # Python creates an integer object 10 in memory.
 # It binds the name x to that object.
 # The type of the object is int.

@@ -27,10 +27,10 @@
 
 # 🔹 Types of Namespaces
 # Namespace      Type	Description
-# Local	Inside a function (local variables)
-# Enclosing	In outer function (for nested functions)
-# Global	Top-level of your script or module
-# Built-in	Python's built-in names (like len, print)
+# Local	         Inside a function (local variables)
+# Enclosing      In outer function (for nested functions)
+# Global	     Top-level of your script or module
+# Built-in	     Python's built-in names (like len, print)
 
 # 📌 Example:
 # x = "global"
@@ -59,6 +59,6 @@
 #     def inner():     ← Local namespace
 #         print()      ← Python searches: Local → Enclosing → Global → Built-in
 # ✅ Summary
-# Concept	Use for
-# Closure	Creating functions that remember values from outer scope
-# Namespace	Managing variable scopes and avoiding name collisions
+# Concept	 Use for
+# Closure	 Creating functions that remember values from outer scope
+# Namespace	 Managing variable scopes and avoiding name collisions

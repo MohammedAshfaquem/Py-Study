@@ -5,7 +5,7 @@
 # Category	Types Included
 # Numeric	int, float, complex
 # Sequence	str, list, tuple, range
-# Set	set, frozenset
+# Set	    set, frozenset
 # Mapping	dict
 # Boolean	bool
 # Binary	bytes, bytearray, memoryview
