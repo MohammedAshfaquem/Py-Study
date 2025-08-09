@@ -24,10 +24,10 @@
 # -Enterprise-grade web apps
 
 # Why Use Django?
-# -Fast development
-# - secure 
-# -Clean, reusable code
-# -Active community and strong documentation.
+# - Fast development
+# - Secure 
+# - Clean, reusable code
+# - Active community and strong documentation.
 
 
 

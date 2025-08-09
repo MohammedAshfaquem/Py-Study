@@ -39,13 +39,9 @@
 # Django includes built-in protections against many common web vulnerabilities such as:
 
 # SQL Injection
-
 # Cross-Site Scripting (XSS)
-
 # Cross-Site Request Forgery (CSRF)
-
 # Clickjacking
-
 # Secure password hashing
 
 # Why it's important:
@@ -54,7 +50,6 @@
 # ✅ 5. Scalability and Reusability
 # 🔹 Scalability
 # Django is designed to scale well with increasing traffic and data. It supports:
-
 # Caching
 
 # Load balancing
