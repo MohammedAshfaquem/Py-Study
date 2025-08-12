@@ -26,7 +26,7 @@
 # 🔹 Accessing a cookie (from the client):
 # To get the cookie back in another view:
 # def read_cookie(request):
-#     name = request.COOKIES.get('name')
+#     name = request.COOKIES.get('name')    to retreive
 #     return HttpResponse(f"Hello {name}")
 # 🔹 Optional parameters for set_cookie():
 # You can customize cookie behavior with options like:
@@ -47,3 +47,14 @@
 # Size Limit	~4KB	Much larger possible
 # Security	Less secure	More secure (data not exposed)
 # Persistence	Controlled by expiry settings	Can expire with browser/session
+
+
+
+# session:
+#  create :   response.session['key']:'value';
+#  access : response.session.get('key');
+ 
+# cookies:
+#     create: response.set_cookie("key":"value");
+#     access:response.COOKIES.get('key')
+    
