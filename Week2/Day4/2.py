@@ -1,6 +1,7 @@
 # Cookies in Django
 # Definition: Cookies store data on the client side (i.e., in the user's browser).
-# They are key-value pairs that a server sends to the client, which are sent back to the server with every subsequent request.
+# They are key-value pairs that a server sends to the client.
+# which are sent back to the server with every subsequent request.
 
 # 🔹 Explanation of
 # response.set_cookie('name', 'John')
@@ -42,19 +43,19 @@
 #     samesite='Lax',         # CSRF protection
 # )
 # 🔹 Difference between Cookie and Session:
-# Feature	Cookie	Session
-# Storage	Client-side (browser)	Server-side
-# Size Limit	~4KB	Much larger possible
-# Security	Less secure	More secure (data not exposed)
+# Feature	    Cookie	                        Session
+# Storage	    Client-side (browser)	        Server-side
+# Size Limit	~4KB	                        Much larger possible
+# Security	    Less secure	                    More secure (data not exposed)
 # Persistence	Controlled by expiry settings	Can expire with browser/session
 
 
 
 # session:
-#  create :   response.session['key']:'value';
-#  access : response.session.get('key');
+# create : request.session['key']:'value';
+# access : request.session.get('key');
  
 # cookies:
-#     create: response.set_cookie("key":"value");
-#     access:response.COOKIES.get('key')
+# create: response.set_cookie("key":"value");
+# access:request.COOKIES.get('key')
     

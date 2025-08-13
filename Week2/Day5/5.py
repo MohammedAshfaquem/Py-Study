@@ -1,7 +1,7 @@
 
 # 🔹 What is a QuerySet?
 # A QuerySet is a collection of  rows in DB  that returned by Django ORM .
-# You use it to read, filter, order, update, or delete data.
+# it is used  to read, filter, order, update, or delete data.
 
 # 🔸 Basic Queries
 # all()

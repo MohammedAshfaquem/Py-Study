@@ -56,7 +56,7 @@
 
 # ✅ Summary
 # Part	What it does
-# method="post"	Sends form data securely to the server
-# csrf_token	Required for security
+# method="post"	    Sends form data securely to the server
+# csrf_token	    Required for security
 # if request.method == 'POST'	Checks if the form was submitted
 # request.POST.get()	Retrieves submitted data from the form

@@ -1,5 +1,7 @@
-# In Django, sessions allow you to store and retrieve data on a per-user basis while the user interacts with your web application.
-# This is useful for things like keeping users logged in, storing shopping cart contents, or tracking user preferences.
+# sessions allow you to store and retrieve data on a per-user basis while the user interacts with your web application.
+# This is useful for things like keeping users logged in,
+# storing shopping cart contents,
+# tracking user preferences.
 
 # 🔹 Explanation of request.session['user'] = 'John':
 # This line of code:

@@ -40,9 +40,7 @@
 # ✅ This allows you to:
 
 # Keep your layout consistent
-
 # Avoid repeating HTML in every file
-
 # Follow DRY (Don't Repeat Yourself) principle
 
 # 🧱 Block Content
@@ -58,8 +56,8 @@
 # Each child template can change only specific parts without touching the whole layout
 
 # ✅ Summary Table
-# Feature	Purpose
-# Templates	HTML + Django code to show dynamic data
-# Template Inheritance	Reuse base layout across many pages
-# {% block content %}	Define sections that child templates can override
-# {% extends 'base.html' %}	Inherit layout from a parent/base template
+# Feature	                    Purpose
+# Templates	                    HTML + Django code to show dynamic data
+# Template Inheritance	        Reuse base layout across many pages
+# {% block content %}	        Define sections that child templates can override
+# {% extends 'base.html' %}	    Inherit layout from a parent/base template

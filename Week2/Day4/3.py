@@ -1,7 +1,8 @@
 # 🧩 Django Models (Overview)
 # Definition:
 # Models in Django define the structure of your database tables using Python classes.
-# Each model maps to a single table in the database, and each attribute of the model represents a column in that table.
+# Each model maps to a single table in the database.
+# and each attribute of the model represents a column in that table.
 
 # 🔹 Basic Example
 # from django.db import models
