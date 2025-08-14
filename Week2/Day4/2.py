@@ -54,8 +54,10 @@
 # session:
 # create : request.session['key']:'value';
 # access : request.session.get('key');
+# life time sett:max_age()
  
 # cookies:
 # create: response.set_cookie("key":"value");
 # access:request.COOKIES.get('key')
+# life Time:set_expiry(300) means 5 Minute
     

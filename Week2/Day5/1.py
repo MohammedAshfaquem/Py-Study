@@ -114,11 +114,11 @@
 # You just define which model and fields — Django handles the rest.
 
 # 🆚 Summary Table
-# Feature	forms.Form	forms.ModelForm
-# Linked to Model	❌ No	✅ Yes
-# Fields Defined Manually	✅ Yes	❌ Auto-generated from model
-# Use Case	Custom forms, filters, etc.	Create/update model objects
-# Needs .save() Method	❌ You handle saving manually	✅ Comes with .save() method
-# Flexibility	✅ Very flexible	⚠️ Less flexible, but easier for models
+# Feature	             forms.Form	                              forms.ModelForm
+# Linked to Model	     ❌ No	                                ✅ Yes
+# FieldsDefined Manually ✅ Yes	                                ❌ Auto-generated from model
+# Use Case	             Custom forms, filters, etc.	          Create/update model objects
+# Needs .save()          Method	❌ You handle saving manually	✅ Comes with .save() method
+# Flexibility	         ✅ Very flexible	                    ⚠️ Less flexible, but easier for models
 
     

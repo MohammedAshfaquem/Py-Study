@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # used to represent the root folder of django project
 
 SECRET_KEY = 'django-insecure-*u7jge#pmpd14wqb717^kg32**t18fti9+c9e4#5ip(eu3w2)a'  
-# it is genrated automatically.it is unique for each app and also .
+# it is generated automatically.it is unique for each app and also.
 # it is used for cryptographic signing like session cookies also csrf token.
 # if the key is leaked we can change that also  (using django key generator)
 
@@ -34,12 +34,12 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',  Enables the admin dashboard to manage models.
-    'django.contrib.auth',  Adds authentication: login, logout, users, passwords, permissions.
+    'django.contrib.auth',  Adds authentication features : login, logout, users, passwords, permissions.
     'django.contrib.contenttypes',used to track all models
     'django.contrib.sessions',Enables Session Managment
     'django.contrib.messages', Manage temporary msgs (like "Login successful")
     'django.contrib.staticfiles', Enable static files during dev  in production it use cloud services like aws vercel like that
-    'Form'
+    'Form' 
 ]
 
 # it show all django used apps it contain build in and also we can add our apps also

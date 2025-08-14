@@ -41,8 +41,8 @@
 # Or use class-based views to handle HTTP methods by defining functions like get(), post(), put(), delete().
 
 # Summary:
-# HTTP Method	Purpose	Django Access	Typical Use Case
-# GET	        Retrieve data	        request.GET	Display pages, get info
+# HTTP Method	Purpose	Django Access	Typical         Use Case
+# GET	        Retrieve data	        request.GET	    Display pages, get info
 # POST	        Submit data	            request.POST	Form submissions, create
 # PUT	        Update data (API)	    request.body	REST API updates
 # DELETE	    Delete data (API)	    request.body	REST API deletions

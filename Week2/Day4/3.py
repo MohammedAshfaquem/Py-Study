@@ -36,8 +36,8 @@
 # person.delete()
 # 🔹 Common Field Types:
 # Field Type	Description
-# CharField	Text field with max length
-# TextField	Long text field
+# CharField	    Text field with max length
+# TextField	    Long text field
 # IntegerField	Whole numbers
 # BooleanField	True/False
 # DateField	Date only

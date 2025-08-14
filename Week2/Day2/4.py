@@ -38,3 +38,10 @@
 # ✅ Why useful?
 # Dynamic URLs let you make pages for different data without creating separate routes for each one.
 # Example: /product/1/, /product/2/, /product/3/ → all handled by one view.
+
+# path converters:
+#     str.
+#     int.
+#     slug:support number text underscore .
+#     uuid:16 digit uniqueid.
+#     path:strin with slashes.
