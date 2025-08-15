@@ -35,6 +35,7 @@
 # Multilevel	Child → Parent → Grandparent
 # Hierarchical	Multiple children inherit one parent
 # Multiple      (careful)One child inherits multiple parents
+# Hybrid        Combination Of EveryOne
 
 # 🔹 1. Single Inheritanc
 # class A:
@@ -84,7 +85,7 @@
 #         print("Cooking")
 
 # class Mother:
-#     def talent(self):
+#     def skill(self):
 #         print("Singing")
 
 # class Child(Father, Mother):
