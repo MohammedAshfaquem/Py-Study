@@ -7,14 +7,7 @@
 # NoSQL Databases              – Data is stored in a non-tabular format (e.g., MongoDB, Firebase).
 # In-memory Databases          – Data is stored in the system's RAM for quick access (e.g., Redis, Memcached).
 # Graph Databases              – Data is represented as a network of nodes and relationships (e.g., Neo4j).
-
-
-# Why Use a Database?
-# Efficient Data Storage  
-# Quick Data Retrieval     
-# Data Integrity             
-# Security                    
-
+                    
 
 # DBMS
 # it stands for Database Management System
