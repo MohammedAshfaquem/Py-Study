@@ -1,6 +1,7 @@
 ✅ What is a View in SQL?
 A View is like a virtual table.
-It doesn't store data, but shows data from one or more real tables using a saved SQL query.
+It doesn't store data.
+it shows data from one or more real tables using a saved SQL query.
 
 
 | Benefit                | What it Means                                      |

@@ -13,4 +13,3 @@ Nested query
 | In `WHERE` clause | `IN`, `=`, `>`, etc.              |
 | In `FROM` clause  | Used as virtual table (alias)     |
 | In `SELECT`       | Get computed values (like totals) |
-day 4
