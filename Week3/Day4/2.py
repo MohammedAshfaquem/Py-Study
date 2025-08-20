@@ -4,6 +4,7 @@
 # It’s also called:
 # Inner query
 # Nested query
+Here Inner Query runs First After that outer query runs
 
 
 

@@ -1,3 +1,5 @@
+# Definition: Combines rows from two or more tables based on a related column.
+
 # 🔹 Sample Tables
 
 # users
