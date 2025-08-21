@@ -41,7 +41,8 @@
 # CREATE VIEW user_orders AS
 # SELECT users.name, orders.product
 # FROM users
-# JOIN orders ON users.id = orders.user_id;
+# JOIN orders
+# ON users.id = orders.user_id;
 
 
 # ✅ This creates a virtual table called user_orders.
