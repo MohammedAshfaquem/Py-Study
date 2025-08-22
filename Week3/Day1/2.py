@@ -46,7 +46,12 @@
 # Microsoft SQL Server
 
 # 📌 DBMS vs RDBMS:
-# DBMS              # RDBMS
-# No relations      # Data stored in relations (tables)
-# No normalization  # Supports normalization
-# E.g., XML DB      # E.g., PostgreSQL, MySQL,oracle,SQLite etc...
+# DBMS                      # RDBMS
+# store data as files       # store data as tables
+# unstructured              # Well Structured
+# No relations              # Data stored in relations (tables)
+# No normalization          # Supports normalization
+# No Keys                   # Support Keys
+# No multi user support     # Support Multi Users
+# Limited Trsct Support     # Advances Transaction Support
+# E.g.File system , XML DB  # E.g., PostgreSQL, MySQL,oracle,SQLite etc...

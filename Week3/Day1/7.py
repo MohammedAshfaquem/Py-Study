@@ -17,3 +17,12 @@
     
 # AUTO_INCREMENT (MySQL)
 # IDENTITY (SQL Server)
+
+
+
+# | Feature           | `WHERE`                               | `HAVING`                              |
+# | ----------------- | ------------------------------------- | ------------------------------------- |
+# | 📌 Used for       | Filtering **rows** (before grouping)  | Filtering **groups** (after grouping) |
+# | 📦 Works on       | Individual rows                       | Aggregated/grouped data               |
+# | 🔢 Can use COUNT? | ❌ No (cannot use aggregate functions) | ✅ Yes (can use COUNT, SUM, etc.)      |
+# | 🔁 Used with      | Any `SELECT`                          | Usually used with `GROUP BY`          |

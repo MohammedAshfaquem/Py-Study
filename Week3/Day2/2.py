@@ -1,4 +1,3 @@
-
 # ✅ 1. Comparison Operators
 # | Operator     | Description              | Example            |
 # | ------------ | ------------------------ | ------------------ |

@@ -16,7 +16,6 @@
 
 # 📘 Types of Normalization (Normal Forms)
 
-
 # 🔹 1. First Normal Form (1NF)
 # Rule:
 # Each column should have atomic (indivisible) values.

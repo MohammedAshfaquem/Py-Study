@@ -23,7 +23,7 @@
 # ROLLBACK;
 
 # 🔹 4. SAVEPOINT
-# it is like checkpoint .so we can roll back to specific ponir instead of roll back wholetransaction
+# it is like checkpoint .so we can roll back to specific point instead of roll back whole transaction
 # Use: Useful in complex transactions where you want partial undo.
 # Syntax:
 # SAVEPOINT savepoint_name;

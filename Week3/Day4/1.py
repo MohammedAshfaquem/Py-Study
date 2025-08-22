@@ -71,11 +71,11 @@
 
 
 # Result:
-# id	name	age	place	pincode
-# 1	Samadev	20	KasarGod	612306
-# 2	Anas	50	Kerala	652306
-# 3	Afnas	150	Kannur	624306
-# 4	John	25	Mumbai	NULL
+# id	    name	age	place	pincode
+# 1	Samadev	20	    KasarGod	612306
+# 2	Anas	50	    Kerala	652306
+# 3	Afnas	150	    Kannur	624306
+# 4	John	25	    Mumbai	NULL
 # NULL	NULL	NULL	Kozhikode	644402
 
 # 5️⃣ CROSS JOIN
