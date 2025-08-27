@@ -12,10 +12,10 @@
 # Think of ASGI as a multi-lane express highway — multiple requests handled together (more efficient for real-time apps).
 
 # 🔁 WSGI vs ASGI — Quick Comparison
-# Feature      	WSGI	                        ASGI
-# Full form	    Web Server Gateway Interface	Asynchronous Server Gateway Interface
-# Requests	    Synchronous only	            Both synchronous & asynchronous
+# Feature        	WSGI	                        ASGI
+# Full form	        Web Server Gateway Interface	Asynchronous Server Gateway Interface
+# Requests	        Synchronous only	            Both synchronous & asynchronous
 # WebSockets	    ❌ Not supported	              ✅ Supported
 # Real-time apps	❌ No	                      ✅ Yes
 # Django support	Default before 3.0	           From Django 3.0+
-# Example         use	Normal websites	           Chat apps, live updates
+# Example           use	Normal websites	           Chat apps, live updates
