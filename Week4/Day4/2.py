@@ -17,6 +17,7 @@ def Sum():
 res = StringVar()
 b1 = Button(window,text="Submit",command=Sum)   
 
+# for btn
 
 
 t1 = Entry(window)
