@@ -1,7 +1,7 @@
 # 🔹 1. aggregate()
 # it travel thorogh each value 
 # Returns a single dictionary with aggregated values.
-# note:return dict.
+# note the ponit :return dict.
 # Example:
 # from django.db.models import Count, Avg, Max, Min
 
@@ -54,9 +54,9 @@
 # 👉 Each user gets their own average note length.
 
 # 🔹 Key Difference
-# Feature	             aggregate()	            annotate()
+# Feature	         aggregate()	            annotate()
 # Scope	             Whole queryset (summary)	Per row (or group)
-# Return type	         Dictionary	                QuerySet
+# Return type	     Dictionary	                QuerySet
 # Example usage	     Total users, average age	Notes per user, orders per customer
 # Output count	     Always 1 row	            Same as queryset rows
 
