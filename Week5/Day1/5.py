@@ -1,5 +1,4 @@
 # 🔹 What is a Q object?
-
 # In Django, a Q object is used to build complex queries with conditions.
 # it use AND,OR and NOT logic.
 # Normally, .filter() applies an AND between conditions. But with Q, you can write more flexible queries.
