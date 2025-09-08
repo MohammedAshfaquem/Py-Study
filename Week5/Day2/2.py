@@ -1,5 +1,4 @@
 # 🔹 1. values()
-
 # Returns a QuerySet of dictionaries.
 # Each dictionary has field names as keys and field values as values.
 
