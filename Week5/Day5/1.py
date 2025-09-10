@@ -1,6 +1,7 @@
 
 # bulk_create() is a QuerySet method in Django.
 # It allows you to insert multiple objects into the database
+# Instead of looping and calling .save() on each object, you can update them in a single query.
 # here one query used instead of saving them one by one.
 # This makes inserts much faster and efficient, especially when adding large datasets.
 

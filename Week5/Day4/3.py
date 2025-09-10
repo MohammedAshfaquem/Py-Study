@@ -48,7 +48,7 @@
 # 5. Important Notes
 # Always use parameterized queries (%s) → prevents SQL injection.
 # Always use with connection.cursor() → it automatically closes the cursor.
-# Cursor returns tuples by default, not dictionaries.
+# Cursor returns tuples by default, not dictionaries.                               ✅✅✅✅✅✅✅✅✅✅✅
 
 # Example: ("Joe", 70000, 3) instead of {"name": "Joe", "salary": 70000}.
 # 👉 If you want dict-like results, you can use DictCursor in some cases (depends on backend).
