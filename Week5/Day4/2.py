@@ -2,7 +2,8 @@
 # Normally in Django you use the ORM
 # But sometimes you want to write pure SQL.
 # For that, Django gives you:
-
+# here we can only fetch data INSER,UPDATE,DELETE is not possible.
+# Signals: ❌ Not triggered
 # Model.objects.raw("YOUR_SQL_QUERY")
 
 

@@ -22,3 +22,13 @@
 # ✅ Analogy
 # Think of .create() like buying items one by one at the store checkout.
 # But .bulk_create() is like loading everything into the cart and paying once — much faster.
+
+
+# def Create(request):
+#     std = [
+#         Student(name="Akshay",age=31,grade='C'),
+#         Student(name="Adhnan",age=24,grade='A+'),
+#         Student(name="Sham",age=34,grade='C+')
+#     ]
+#     Student.objects.bulk_create(std,)
+#     return HttpResponse("Added Working")

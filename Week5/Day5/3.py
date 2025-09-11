@@ -14,6 +14,9 @@
 # ✅ Use when: You want the default Django user functionality but with extra fields.
 
 
+# To check Fields = print([f.name for f in Test._meta.get_fields()])
+
+
 # 2. AbstractBaseUser
 # A bare-bones user model.
 # Provides only:

@@ -77,3 +77,10 @@
 # ⚡ In short:
 # Signals = “Hey, something just happened!”
 # Receivers = “Cool, let me react to it automatically.”
+
+# just presave eg
+# from django.db.models.signals import pre_save
+
+# @receiver(pre_save, sender=Student)
+# def uppercase_name(sender, instance, **kwargs):
+#     instance.name = instance.name.upper()  # make name uppercase before saving

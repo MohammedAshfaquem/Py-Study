@@ -66,3 +66,9 @@
 # MAX(col)	.aggregate(Max("col"))
 # MIN(col)	.aggregate(Min("col"))
 # GROUP BY	.values("field").annotate(...)
+
+
+# from django.db.models import Avg,Min
+# res= Student.objects.aggregate(avg_age=Avg('age'))
+# print(res)
+# {'avg_age': 37.333333333333336}

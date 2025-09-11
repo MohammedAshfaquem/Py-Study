@@ -14,7 +14,8 @@
 
 # 🔹 Examples
 # 1. Normal filter (AND condition by default)
-# # Fetch users whose name is "John" AND age is 25
+# # Fetch us
+# 3ers whose name is "John" AND age is 25
 # User.objects.filter(name="John", age=25)
 # Equivalent to:
 # WHERE name="John" AND age=25

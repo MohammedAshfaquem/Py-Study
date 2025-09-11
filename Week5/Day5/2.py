@@ -20,3 +20,14 @@
 # ✅ Analogy
 # .save() → updating one record at a time (like editing files one by one).
 # .bulk_update() → updating many records in one shot (like running a script that edits all files together).
+
+
+# def Update(request):
+#     std = Student.objects.all()
+#     for s in std:
+#         if s.name == 'Asif':
+#             s.age= 100
+#         elif s.name == "Anas":
+#             s.age=12
+#     Student.objects.bulk_update(std,fields=['age'])
+#     return HttpResponse("Update Working")
