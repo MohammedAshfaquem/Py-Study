@@ -73,3 +73,6 @@
 # ⚡ Key Tip:
 # Django ORM automatically uses LEFT OUTER JOIN when following relations (ForeignKey, OneToOne).
 # For complex joins (RIGHT/FULL) → you often need raw SQL.
+
+
+
