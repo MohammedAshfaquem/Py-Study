@@ -60,5 +60,3 @@
 # SessionAuth = Season pass (cookie stays until you log out).
 # TokenAuth = Show ticket (one fixed token, reused).
 # JWT = QR code ticket (self-contained, can expire/refresh).
-
-added

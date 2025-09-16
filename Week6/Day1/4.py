@@ -22,10 +22,11 @@
 #     content = serializers.CharField()
 
 # 2. ModelSerializer
-# Shortcut for serializers.
+# Just like Django’s ModelForm.
 # Automatically generates fields from a Model.
 # Saves a LOT of code.
-# Just like Django’s ModelForm.
+# Shortcut for serializers.
+
 
 # Example:
 # from rest_framework import serializers
