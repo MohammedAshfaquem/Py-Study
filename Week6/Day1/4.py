@@ -5,7 +5,7 @@
 # Purpose:
 # Convert Model objects → JSON (for API response).
 # Convert JSON → Model objects (for saving API request data).
-# 👉 Serializer = Translator between Database and API
+# Serializer = Translator between Database and API
 
 # 🔹 Types of Serializers in DRF
 # 1. Basic Serializer
