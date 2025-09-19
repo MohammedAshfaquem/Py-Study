@@ -6,9 +6,14 @@
 # After login → server returns a JWT (looks like xxxxx.yyyyy.zzzzz).
 # Client must send this token with each request:
 # no sessions needed.
-
+# JWT has 3 parts: Header.Payload.Signature
+# Header = type + algorithm
+# Payload = user info (id, username, expiry)
+# Signature = secure key to prevent tampering
+# Token is self-contained → no DB lookup needed!
+# Client sends JWT in header.
+# Server only decodes & verifies signature.
 # Authorization: Bearer <your_jwt_token>
-
 # In DRF → it commonly done with django-rest-framework-simplejwt.
 
 

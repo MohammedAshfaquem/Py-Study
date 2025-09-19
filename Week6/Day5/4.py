@@ -5,7 +5,7 @@
 # 1️⃣ Atomic Operations
 # 👉 Useful for: making sure multiple DB actions happen as one unit.
 # If one fails → all roll back.
-# Prevents partial/dirty updates.
+# Prevents partial updates.
 
 # Example:
 # from django.db import transaction

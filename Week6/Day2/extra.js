@@ -36,3 +36,26 @@
 // 📌 Shortcut memory rule:
 // Token Auth = stored in DB
 // JWT = stored in token itself (stateless)
+
+
+
+
+
+// 1. REST
+// REST stands for REpresentational State Transfer.
+// It’s an architecture style for designing networked applications.
+// It uses HTTP methods like GET, POST, PUT, DELETE.
+// REST APIs are stateless — server doesn’t keep user session information between requests.
+
+
+// SOAP stands for Simple Object Access Protocol.
+// It is a protocol (not just a style like REST) used for exchanging structured information between computers over a network.
+
+
+// | Feature    | Django Form              | DRF Serializer               |
+// | ---------- | ------------------------ | ---------------------------- |
+// | Purpose    | Handle web form input    | Handle API JSON input/output |
+// | Output     | Python objects / HTML    | JSON / Python objects        |
+// | Used in    | Web pages                | APIs                         |
+// | Validation | Validates form fields    | Validates JSON data          |
+// | Rendering  | Can render HTML directly | Cannot render HTML           |
