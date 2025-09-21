@@ -2,8 +2,6 @@
 # 👉 Sometimes API data isn’t just flat — it can have lists, nested objects, or require custom fields.
 # DRF serializers give us tools to handle this.
 
-
-
 # ✅ 1. Handling Lists (many=True)
 # If API returns a list of objects, we tell the serializer to expect multiple.
 

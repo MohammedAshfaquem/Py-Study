@@ -37,10 +37,6 @@
 // Token Auth = stored in DB
 // JWT = stored in token itself (stateless)
 
-
-
-
-
 // 1. REST
 // REST stands for REpresentational State Transfer.
 // It’s an architecture style for designing networked applications.

@@ -6,9 +6,6 @@
 # Pluggable design → example: users, auth, or blog app can be reused across projects.
 # Best practice → avoid project-specific logic inside reusable apps; make them generic.
 
-
-
-
 # 🔹 Monitoring & Logging API Requests (with Sentry)
 # APIs  not only give correct responses but also be monitored to check errors, speed, and how clients are using them.
 # Monitoring helps in debugging and improving reliability.

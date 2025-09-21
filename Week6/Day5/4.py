@@ -19,7 +19,6 @@
 #         product.save()
 #         Order.objects.create(product=product, user=request.user)
 
-
 # ✅ Ensures stock + order update happen together.
 
 # 2️⃣ Locking Strategies
