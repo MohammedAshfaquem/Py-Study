@@ -15,7 +15,7 @@
 # | `constraints`         | Add database-level constraints                                   | `[models.CheckConstraint(check=Q(age__gte=18), name="age_gte_18")]` |
 # | `abstract`            | Makes model abstract (no DB table)                               | `abstract = True`                                                   |
 # | `managed`             | If `False`, Django won’t create/drop table (used for legacy DBs) | `managed = False`                                                   |
-
+addedd
 
 # 🔹 In short:
 # Meta = model configuration hub.
