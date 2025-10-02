@@ -20,3 +20,4 @@
 # Meta = model configuration hub.
 # It customizes DB behavior, admin display, constraints, ordering, etc.
 # It’s optional → if you don’t define it, Django uses defaults.
+Test
