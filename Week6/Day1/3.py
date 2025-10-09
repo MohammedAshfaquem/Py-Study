@@ -1,9 +1,9 @@
 # 🔹 JSON (JavaScript Object Notation)
 
+# Default output of DRF.
+# Mostly used in modern APIs.
 # Lightweight text format.
 # Easier to read for humans and machines.
-# Mostly used in modern APIs.
-# Default output of DRF.
 
 
 # Example:
@@ -12,7 +12,6 @@
 #   "title": "First Post",
 #   "content": "Hello World"
 # }
-
 
 # 🔹 XML (eXtensible Markup Language)
 # Older data format (used before JSON became popular).

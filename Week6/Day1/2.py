@@ -2,7 +2,7 @@
 
 
 # 1. Model (Database structure)
-# Defines what data you store (like Django).
+# it decide what data we want  store (like Django).
 # Example: A blog Post model.
 
 # from django.db import models
@@ -33,7 +33,8 @@
 # 👉 Without serializer, DRF cannot convert database data into JSON.
 
 # 3. View (API logic)
-# Decides what to do with a request.
+
+# it is a function that Decides what to do with a request.
 # In Django → views.py returns HTML.
 # In DRF → views.py returns JSON.
 # Example:

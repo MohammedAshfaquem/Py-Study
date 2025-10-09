@@ -5,10 +5,10 @@
 # In DRF, permissions decide if an authenticated (or anonymous) user can access a view or not.
 
 # ✅ Common Built-in Permissions
-# Permission	Meaning
-# AllowAny	Everyone can access (no login needed).
+# Permission	    Meaning
+# AllowAny	        Everyone can access (no login needed).
 # IsAuthenticated	Only logged-in users can access.
-# IsAdminUser	Only admin/staff users can access.
+# IsAdminUser	    Only admin/staff users can access.
 # IsAuthenticatedOrReadOnly	Logged-in users → full access, Anonymous → only safe methods (GET, HEAD, OPTIONS).
 # ✅ Example Usage
 # Global (all APIs)
