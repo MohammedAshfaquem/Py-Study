@@ -5,8 +5,8 @@
 
 # 🔹 When to Use?
 # When you need OR queries (|).
-# When you need complex AND/OR mixes.
 # When you need NOT conditions.
+# When you need complex AND/OR mixes.
 # When you want dynamic queries (conditions only if provided).
 
 # 🔹 Import

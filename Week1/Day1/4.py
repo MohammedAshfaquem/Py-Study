@@ -32,14 +32,12 @@
 # 📚 3. Sequence Types
 # ✅ list
 # Ordered
-
 # Mutable (can change)
 
 # Heterogeneous elements (mixed types)
 # fruits = ["apple", "banana", 5]
 # ✅ tuple
 # Ordered
-
 # Immutable
 # coords = (10, 20)
 # ✅ range

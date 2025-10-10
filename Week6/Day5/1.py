@@ -1,5 +1,5 @@
 # Exception Handling & Custom Responses
-# instead of crashing APIs must  handle errors and give clear messages .
+# instead of crashing APIs must handle errors and give clear messages .
 # DRF provides tools for this.
 
 

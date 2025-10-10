@@ -35,7 +35,6 @@
 #         model = Book
 #         fields = ["id", "title", "author"]
 
-
 # 👉 Means: user cannot send id, it will be generated automatically.
 
 # ✅ 3. extra_kwargs

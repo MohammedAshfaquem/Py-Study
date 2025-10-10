@@ -3,7 +3,7 @@
 # Returns a single dictionary with aggregated values.
 # note the ponit :return dict.
 # Example:
-# from django.db.models import Count, Avg, Max, Min
+# from django.db.models import Count, Avg, Max, Min,Sum
 
 # # Total number of users
 # User.objects.aggregate(total=Count('id'))
