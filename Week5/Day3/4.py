@@ -1,5 +1,4 @@
 # 🔹 What is prefetch_related()?
-
 # It is a QuerySet method  in django ORM.
 # It used for reverse relationships and ManyToMany fields.
 # Django runs two separate queries and then joins them in Python, instead of the database.

@@ -1,4 +1,5 @@
-# Django supports three types of model inheritance, which allow you to reuse and structure your models more efficiently
+# Django supports three types of model inheritance,
+# which allow us to reuse and structure your models more efficiently
 
 # ✅ 1. Abstract Base Classes
 # 🔹 What it is:

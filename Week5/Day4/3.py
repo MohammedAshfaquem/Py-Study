@@ -1,7 +1,7 @@
 # 🔹 Django Cursor (for raw SQL)
-# Sometimes, instead of using raw() or ORM, we may want to execute custom SQL queries directly.
+# Sometimes, instead of using raw() or ORM, we  want to execute custom SQL queries directly.
 # For that, Django provides a cursor object through the database connection.
-
+# it return 
 
 # 1. How to Get a Cursor
 # from django.db import connection

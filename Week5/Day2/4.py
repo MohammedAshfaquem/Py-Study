@@ -10,7 +10,7 @@
 # Here, objects is the default manager for User.
 
 # 🔹 Custom Managers
-# You can define your own manager with extra methods to organize queries better.
+# we can define our own manager with extra methods to organize queries better.
 # Example
 # from django.db import models
 

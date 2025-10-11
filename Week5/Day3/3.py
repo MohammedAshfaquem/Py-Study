@@ -1,7 +1,7 @@
 # 🔹 What is select_related()?
 # It is a QuerySet method in Django ORM.
-# it used with  foreign key relationships and also one to one feilds
 # it like SQL join
+# it used with  foreign key relationships and also one to one feilds
 # it Mainly Used for optimization (reducing queries).
 # It tells Django:
 # 👉 “When you fetch this object, also fetch its related object in the same query (SQL JOIN), instead of hitting the database again.”
