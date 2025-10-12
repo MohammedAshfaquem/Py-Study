@@ -1,5 +1,5 @@
 # 🔹 1. DECLARE in SQL
-# DECLARE is used to define variables, cursors, or conditions in SQL.
+# DECLARE is used to define variables,or conditions in SQL.
 # especially inside  functions, or scripts.
 
 

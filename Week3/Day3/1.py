@@ -1,6 +1,5 @@
 # ✅ What are Aggregate Functions?
-# Aggregate functions perform a calculation on multiple rows and return a single value.
-
+# Aggregate functions travel through each row and return a single value.
 # | Function  | What it does             | Example Use               |
 # | --------- | ------------------------ | ------------------------- |
 # | `COUNT()` | Counts number of rows    | How many users are there? |

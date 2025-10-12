@@ -1,4 +1,4 @@
-# Definition: Combines rows from two or more tables based on a related column.
+# Definition: Combines rows from two or more tables based on the combination.
 
 # 🔹 Sample Tables
 
@@ -32,8 +32,8 @@
 
 # ❌ John (Mumbai) and Kozhikode don’t appear because they don’t match.
 
-# 2️⃣ LEFT JOIN
-# 👉 Returns all users + matching addresses. If no match, address columns are NULL.
+# 2️⃣ LEFT JOIN: It returns all rows from the left table, and matching rows from the right table.
+# If there is no matching row in the right table, it shows NULL for those columns..
 # SELECT u.id, u.name, u.age, u.place, a.pincode
 # FROM users u
 # LEFT JOIN address a
@@ -48,8 +48,8 @@
 # 4	John	25	Mumbai	NULL
 
 
-# 3️⃣ RIGHT JOIN
-# 👉 Returns all addresses + matching users. If no match, user columns are NULL.
+# 3️⃣ RIGHT JOIN: It returns all rows from the right table, and matching rows from the left table.
+# If there is no matching row in the left table, it shows NULL for those columns.
 # SELECT u.id, u.name, u.age, a.place, a.pincode
 # FROM users u
 # RIGHT JOIN address a

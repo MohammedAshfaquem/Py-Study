@@ -1,7 +1,7 @@
 # Concurrency control:
 # it is a techniques used to ensure that multiple transactions can be executed simultaneously
 # without causing data inconsistency,conflicts, or errors.
-# it allow users  to interact with the data in th DB at the same time.
+# it allow users to interact with the data in th DB at the same time.
 # it allow users to handle or change data simulteniosly without affect  the data .
 
 
