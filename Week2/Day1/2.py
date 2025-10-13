@@ -1,7 +1,6 @@
 # ✅ 1. DRY (Don't Repeat Yourself)
 # What it means:
 # Django encourages writing code that is reusable and avoids duplication. The idea is: "Write once, use it everywhere."
-
 # Example:
 # If you define a model (like a Product), you don’t need to redefine it in multiple places for the database, form, or admin panel — Django handles that automatically.
 
@@ -11,7 +10,6 @@
 # ✅ 2. Built-in Admin Interface
 # What it means:
 # Django comes with a powerful and customizable admin dashboard that lets you manage application data through a web interface.
-
 # Example:
 # Once you define your models, Django can generate a full admin panel where you can:
 # Add, update, and delete data
@@ -24,7 +22,6 @@
 # ✅ 3. ORM (Object-Relational Mapping)
 # What it means:
 # The Django ORM allows you to interact with the database using Python code instead of raw SQL queries.
-
 # Example:
 # # Instead of writing SQL...
 # SELECT * FROM users WHERE active = 1;
@@ -37,7 +34,6 @@
 # ✅ 4. Security Features
 # What it means:
 # Django includes built-in protections against many common web vulnerabilities such as:
-
 # SQL Injection
 # Cross-Site Scripting (XSS)
 # Cross-Site Request Forgery (CSRF)
@@ -51,7 +47,6 @@
 # 🔹 Scalability
 # Django is designed to scale well with increasing traffic and data. It supports:
 # Caching
-
 # Load balancing
 
 # Asynchronous processing (with Django Channels or Celery)

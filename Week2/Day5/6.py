@@ -24,7 +24,7 @@
 # 🔹 Common Use Cases
 # Searching (?q=term)
 # Pagination (?page=2)
-# Filtering (?category=books&sort=price)
+# Filtering (?category=books&sort=price) ()
 # Sorting
 
 # 🧠 Summary

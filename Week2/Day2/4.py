@@ -1,8 +1,6 @@
 # What are Dynamic URLs in Django?
 # Static URL: Always the same for everyone (e.g., /about/)
-
 # Dynamic URL: Changes based on data or user input (e.g., /products/5/ or /user/john/)
-
 # In Django, we use path converters to capture part of the URL and send it to the view function as a parameter.
 
 # Simple Example:
