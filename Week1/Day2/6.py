@@ -84,16 +84,13 @@
 # import re
 
 # text = "My phone number is 123-456-7890."
-
 # # Search for a pattern (digits with dashes)
 # match = re.search(r"\d{3}-\d{3}-\d{4}", text)
-
 # if match:
 #     print("Phone number found:", match.group())
 # else:
 #     print("No phone number found.")
 # Common re functions:
-
 # Function	Description
 # re.search()	Find first match
 # re.findall()	Find all matches
@@ -103,7 +100,6 @@
 # 3️⃣ Advanced String Slicing and Manipulation
 # a) Extended slicin
 # s = "Hello, World!"
-
 # print(s[7:12])    # Output: World
 # print(s[::-1])    # Output: !dlroW ,olleH  (reversed string)
 # print(s[::2])     # Output: Hlo ol! (every 2nd character)

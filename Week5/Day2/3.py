@@ -4,7 +4,6 @@
 # To achieve That we need To Import:
 # from django.db.models import F
 
-
 # 🔹 Examples
 # 1. Compare two fields
 # # Get users where name length = age (just a silly example)

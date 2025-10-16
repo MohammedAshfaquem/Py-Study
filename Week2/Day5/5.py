@@ -12,8 +12,9 @@
 # Filters the records using conditions:
 # Book.objects.filter(author='Alice')
 # Book.objects.filter(published_year__gte=2020)
-# get()
 
+
+# get()
 # Fetches a single object:
 # Book.objects.get(id=1)
 # Raises DoesNotExist or MultipleObjectsReturned if no or multiple results.

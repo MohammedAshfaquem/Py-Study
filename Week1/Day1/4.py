@@ -8,8 +8,7 @@
 # Set	    set, frozenset
 # Mapping	dict
 # Boolean	bool
-# Binary	bytes, bytearray, memoryview
-# None Type	NoneType (only None)
+# None      NoneType (only None)
 
 # 🔢 1. Numeric Types
 # ✅ int — Integer
@@ -46,7 +45,6 @@
 # 🔁 4. Set Types
 # ✅ set
 # Unordered, no duplicates
-
 # Mutable
 # s = {1, 2, 3}
 # ✅ frozenset
@@ -78,9 +76,7 @@
 # Special type representing the absence of a value
 # x = None
 # Used when:
-
 # Function doesn’t return anything
-
 # Placeholder for optional values
 
 # 🧪 Example Summar

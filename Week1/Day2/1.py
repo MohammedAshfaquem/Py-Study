@@ -1,10 +1,7 @@
 # 🔄 What is Mutability in Python?
 # Mutability means an object can be changed after it is created.
-
 # If you can change the content of an object (like add, remove, or modify elements), it is mutable.
-
 # If you cannot change its content after creation, it is immutable.
-
 # 🧠 Think of This Real-Life Analogy:
 # Mutable = Whiteboard → You can erase and rewrite.
 

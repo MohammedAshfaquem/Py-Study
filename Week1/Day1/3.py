@@ -12,7 +12,6 @@
 # ✅ Key Features of Python Variables
 # 1. Dynamically Typed
 # You don’t need to declare the type of a variable:
-
 # x = 10      # int
 # x = "hello" # now it's a string
 # 👉 The type of variable is decided at runtime, based on the value.
@@ -20,7 +19,6 @@
 # 2. No Need for Declaration
 # No need to write int x; or String x; like in Java or C++.
 # Just assign:
-
 # name = "Ashfaque"
 # age = 25
 # 3. Variables are Just Labels

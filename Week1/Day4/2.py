@@ -60,13 +60,9 @@
 # Class	    Template or blueprint	Person class
 # Object	Instance of a class	p1 = Person(...)
 # Method	Function inside a class	greet(self)
-# Attribute	Variable tied to an object	self.name
+# Attribute	Variable tied to an object	self.name     a
 
-# Would you like to move next to:
 
-# 🔸 Class variables vs Instance variables?
-# 🔸 Method types (instance, class, static)?
-# 🔸 Real-world class project (e.g. ATM, School)?
 
 
 # 🔸 1. Class Variables vs Instance Variables

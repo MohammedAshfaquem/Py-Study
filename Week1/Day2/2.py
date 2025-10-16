@@ -123,15 +123,13 @@
 # print(matrix[1][2])   # ➤ Output: 6
 # 🔹 Mutability Example
 # a = [1, 2, 3]
-# print(id(a))    # e.g., 139840198870912
+# print(id(a))    # e.g.,
 
 # a.append(4)
 # print(id(a))    # Same ID → list is mutable
 # 🧠 When to Use Lists?
 # When you need ordered data
-
 # When the data might change
-
 # For iterating, modifying, slicing items easily
 
 # ❗ Warning: Copying Lists
@@ -168,7 +166,7 @@
 # insert()	Insert at specific index
 # extend()	Add multiple items
 # remove()	Remove by value
-# pop()	Remove by index
+# pop()	    Remove by index
 # clear()	Empty list
 # sort()	Sort list
 # Type	Syntax	Result
