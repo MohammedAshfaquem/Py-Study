@@ -1,6 +1,6 @@
 # 🧬 Inheritance in Python — Explained in Detail
 # ✅ What is Inheritance?
-# Inheritance allows one class (child/subclass) to reuse the code (methods & attributes) of
+# Inheritance means it  child class can inherit all the properties of parent class
 # another class (parent/superclass).
 
 # 🧠 Think of it as:
@@ -32,12 +32,11 @@
 # 🔁 Types of Inheritance in Python
 # Type	Description
 # Single	    One child inherits one parent
+# Multiple      (careful)One child inherits multiple parents
 # Multilevel	Child → Parent → Grandparent
 # Hierarchical	Multiple children inherit one parent
-# Multiple      (careful)One child inherits multiple parents
-# Hybrid        Combination Of EveryOne
 
-# 🔹 1. Single Inheritanc
+# 🔹 1. Single Inheritance
 # class A:
 #     def showA(self):
 #         print("Class A")
@@ -49,7 +48,7 @@
 # b = B()
 # b.showA()
 # b.showB()
-# 🔹 2. Multilevel Inheritanc
+# 🔹 2. Multilevel Inheritance
 # class A:
 #     def showA(self):
 #         print("Class A")

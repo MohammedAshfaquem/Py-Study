@@ -23,7 +23,6 @@
 # {'Alice': 85, 'Bob': 90, 'Charlie': 95}
 # 🔍 Key Points:
 # Stops at the shortest list
-
 # Very useful for building dictionaries
 # Works well inside loops, comprehensions
 
@@ -98,6 +97,8 @@
 # b2 = Book(200)
 # b3 = b1 + b2
 # print(b3)  # Book with 300 pages
+
+
 # 4️⃣ Length, Indexing, and Iteration
 # Function	Magic Method
 # len()	__len__
@@ -117,6 +118,8 @@
 # ml = MyList([10, 20, 30])
 # print(len(ml))     # 3
 # print(ml[1])       # 20
+
+
 # 5️⃣ Callable Objects
 # Feature	Method
 # Function call	__call__()

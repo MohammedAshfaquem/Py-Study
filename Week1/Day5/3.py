@@ -1,6 +1,6 @@
 # 📂 1. File Handling in Python – Reading & Writing Files
 # 🔹 What is File Handling?
-# File handling is how Python reads from and writes to files — like .txt, .csv, etc.
+# File handling is how Python reads  and writes to files — like .txt, .csv, etc.
 # This lets your program store and retrieve data permanently (unlike variables which are lost when the program ends).
 
 # 📁 File Modes in Python

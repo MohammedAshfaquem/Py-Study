@@ -18,13 +18,9 @@
 
 # 🧠 Real-Life Analogy
 # Think of a bank ATM:
-
 # You can’t access the money inside directly
-
 # You must use an interface (buttons/screen) to interact
-
 # Your PIN is private, and only you can use it
-
 # That's encapsulation — it hides the internal data and exposes only what's needed.
 
 # 🐍 Encapsulation in Python
