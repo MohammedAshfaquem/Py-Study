@@ -33,7 +33,6 @@
 # 👉 Without serializer, DRF cannot convert database data into JSON.
 
 # 3. View (API logic)
-
 # it is a function that Decides what to do with a request.
 # In Django → views.py returns HTML.
 # In DRF → views.py returns JSON.

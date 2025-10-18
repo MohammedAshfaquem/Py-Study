@@ -18,9 +18,7 @@
 # 🔹 2. values_list()
 
 # Returns a QuerySet of tuples.
-
 # Each tuple contains only the field values (no keys).
-
 # Example:
 # users = User.objects.values_list('id', 'name')
 
